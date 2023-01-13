@@ -21,7 +21,7 @@ public class TestBase {
         Configuration.browserVersion = System.getProperty("browser_version", "100");
         Configuration.browserSize = System.getProperty("browser_size", "1920x1080");
 
-        String remoteUrl = System.getProperty("remote_url");
+        String remoteUrl = System.getProperty("remoteUrl");
         if (remoteUrl != null) {
             Configuration.remote = remoteUrl;
             DesiredCapabilities capabilities = new DesiredCapabilities();
