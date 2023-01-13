@@ -6,7 +6,7 @@ public class SystemPropertiesTests {
     }
 
     public static String browserVersion() {
-        return System.getProperty("browserVersion", "100.0");
+        return System.getProperty("browserVersion", "100");
     }
 
     public static String browserSize() {

@@ -18,7 +18,7 @@ public class TestBase {
         Configuration.holdBrowserOpen = false;
 
         Configuration.browser = System.getProperty("browser", "chrome");
-        Configuration.browserVersion = System.getProperty("browser_version", "100.0");
+        Configuration.browserVersion = System.getProperty("browser_version", "100");
         Configuration.browserSize = System.getProperty("browser_size", "1920x1080");
 
         String remoteUrl = System.getProperty("remote_url");
